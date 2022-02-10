@@ -62,7 +62,7 @@
   top: -100%;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: var(--color-black);
   flex-direction: column;
   transition: all 0.5s ease;
