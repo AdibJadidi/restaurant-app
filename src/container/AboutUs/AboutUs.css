@@ -1,11 +1,11 @@
 .app__aboutus {
   position: relative;
 }
-.app_aboutus-overlay {
+.app__aboutus-overlay {
   position: absolute;
   inset: 0;
 }
-.app_aboutus-overlay img {
+.app__aboutus-overlay img {
   width: 391px;
   height: 415px;
   z-index: 0;
@@ -50,7 +50,13 @@
 }
 @media screen and (max-width: 650px) {
   .app__aboutus-overlay img {
-    width: 80%;
+    width: 60%;
     height: 320px;
+  }
+}
+@media screen and (max-width: 321px) {
+  .app__aboutus-overlay img {
+    width: 60%;
+    height: 360px;
   }
 }

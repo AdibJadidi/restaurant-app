@@ -64,8 +64,11 @@
   .app__specialMenu-menu-img {
     width: 100%;
     margin: 3rem 0;
+    display: flex;
+    justify-content: center;
   }
   .app__specialMenu-menu-img img {
+    width: 80%;
     height: 800px;
   }
 }
@@ -75,5 +78,12 @@
   }
   .app__specialMenu-menu-img img {
     height: 500px;
+  }
+}
+@media screen and (max-width: 321px) {
+  .app__specialMenu-menu-img img {
+    min-width: unset;
+    width: 90%;
+    height: 400px;
   }
 }
