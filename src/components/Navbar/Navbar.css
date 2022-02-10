@@ -65,7 +65,6 @@
   height: 100vh;
   background-color: var(--color-black);
   flex-direction: column;
-  z-index: 5;
   transition: all 0.5s ease;
 }
 .app__navbar-smallscreen_overlay.active {
@@ -111,6 +110,7 @@
   .app__navbar-login {
     display: none;
   }
+
   .app__navbar-logo img {
     width: 110px;
   }
