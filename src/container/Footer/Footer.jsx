@@ -7,7 +7,7 @@ import images from "../../constants/images";
 import "./Footer.css";
 
 const Footer = () => (
-  <div className="app__footer  flex__center section__padding">
+  <div className="app__footer  flex__center section__padding" id="contact">
     <FooterOverlay />
     <Newsletter />
 

@@ -21,13 +21,13 @@ const Navbar = () => {
           <a href="#aboutus">About Us</a>
         </li>
         <li className="p__opensans">
-          <a href="#contactus">Contact Us</a>
+          <a href="#menu">Menu</a>
         </li>
         <li className="p__opensans">
-          <a href="#blog">Blog</a>
+          <a href="#awards">Awards</a>
         </li>
         <li className="p__opensans">
-          <a href="#landing">Landing</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
       <div className="app__navbar-login">
