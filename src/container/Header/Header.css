@@ -1,0 +1,13 @@
+.app__header {
+  display: flex;
+  background-color: var(--color-black);
+  justify-content: space-between;
+}
+
+.app__header-h1 {
+  color: var(--color-golden);
+  font-size: 90px;
+  font-family: var(--font-base);
+  letter-spacing: 0.04rem;
+  line-height: 117px;
+}

@@ -1,0 +1,16 @@
+.app__menu-item {
+  width: 100%;
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+}
+.app__menu-item__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
+}
+
+.app__menu-item__title {
+  flex: 1;
+}
